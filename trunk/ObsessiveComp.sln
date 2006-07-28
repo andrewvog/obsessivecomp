@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsessiveComp", "ObsessiveComp.csproj", "{32D7FC5F-8AD0-4C9A-A4B4-EDDAC7628D30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AceLib", "..\AceLib\AceLib.csproj", "{98DBA2EE-CD6B-4D57-836D-1EFFD3B87F87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32D7FC5F-8AD0-4C9A-A4B4-EDDAC7628D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D7FC5F-8AD0-4C9A-A4B4-EDDAC7628D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D7FC5F-8AD0-4C9A-A4B4-EDDAC7628D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D7FC5F-8AD0-4C9A-A4B4-EDDAC7628D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DBA2EE-CD6B-4D57-836D-1EFFD3B87F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DBA2EE-CD6B-4D57-836D-1EFFD3B87F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DBA2EE-CD6B-4D57-836D-1EFFD3B87F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DBA2EE-CD6B-4D57-836D-1EFFD3B87F87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
