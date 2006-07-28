@@ -37,6 +37,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileLib.cs" />
+    <Compile Include="GuiLib.cs" />
     <Compile Include="ScriptProcessing\Script.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -69,18 +71,13 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="ScriptProcessing\Step.cs" />
+    <Compile Include="StringLib.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SetNextStatement.bmp" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="UI_WebUserControl.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AceLib\AceLib.csproj">
-      <Project>{98DBA2EE-CD6B-4D57-836D-1EFFD3B87F87}</Project>
-      <Name>AceLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
